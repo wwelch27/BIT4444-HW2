@@ -1,0 +1,72 @@
+.img-hold {
+  border: 1px dashed #333;
+  padding: 3px;
+  margin: 25 0px;
+  width: 350px;
+}
+
+.small-img {
+  width: 350px;
+  margin: 0px;
+}
+
+.concentration {
+  border: 2px solid #922827;
+  padding: 5px 10px;
+  margin: 15px 5px;
+  background-color: #fcb557;
+  box-shadow: 5px 10px 15px 0px #888888;
+}
+
+ul {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style: none;
+  width: auto;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+
+ul li a {
+  display: block;
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #fff;
+  background: #939393;
+}
+
+ul li ul.dropdown {
+  min-width: 100%; /* Set width of the dropdown */
+  background: #f2f2f2;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+
+ul li:hover ul.dropdown {
+  display: block; /* Display the dropdown */
+}
+
+ul li ul.dropdown li {
+  display: block;
+}
+
+.dropdown {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
